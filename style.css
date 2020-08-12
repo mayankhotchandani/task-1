@@ -7,22 +7,22 @@ body {
   font-family: Avenir;
 }
 .nav {
-  height: 7vh;
+  height: 6vh;
   border-bottom: 1px solid rgb(209, 209, 209);
 }
 .back {
-  margin-top: 3.5vh;
+  margin-top: 3vh;
   background-color: white;
   border: none;
 }
 .upload {
-  margin-top: 3.5vh;
+  margin-top: 3vh;
   float: right;
   margin-right: 6px;
 }
 .heading {
   position: absolute;
-  top: 4vh;
+  top: 3.5vh;
   right: 35vw;
   font-size: 1em;
 }
@@ -39,10 +39,10 @@ body {
   display: flex;
   box-sizing: border-box;
   justify-content: space-around;
-  align-items: center;
+
   width: 100vw;
-  height: 28vh;
-  border: 1px solid red;
+  height: 26vh;
+  /* border: 1px solid red; */
   flex-direction: row;
   overflow-x: scroll;
   flex-wrap: nowrap;
@@ -50,8 +50,8 @@ body {
 }
 .card {
   height: 80%;
-  min-width: 75%;
-  border: 1px solid red;
+  min-width: 80%;
+  /* border: 1px solid red; */
   margin: 0px 10px;
 }
 .horizontal-scroll::-webkit-scrollbar {
@@ -71,8 +71,40 @@ body {
   margin-left: 0px;
   margin-right: 20px;
 }
+/* video */
+.video {
+  width: 100%;
+  height: 100%;
+
+  /* border: 1px solid blue; */
+}
+.wrapper {
+  display: table;
+  position: relative;
+  border-radius: 40px;
+  height: 100px;
+
+  /* border: 1px solid pink; */
+}
+.playpause {
+  background-image: url(https://image.flaticon.com/icons/svg/122/122341.svg);
+  filter: invert(1);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 40%;
+  top: 40%;
+  background-size: contain;
+  background-position: center;
+}
+.week {
+  font-size: 0.7em;
+  color: rgb(180, 180, 180);
+}
+
 .review-heading {
-  margin-top: 4vh;
+  margin-top: 2vh;
 }
 .edit {
   float: right;
@@ -93,7 +125,7 @@ body {
   box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  height: 43vh;
+  height: 40vh;
   /* border: 1px solid blue; */
   overflow-x: scroll;
 }
@@ -131,12 +163,12 @@ body {
 .search {
   position: absolute;
   right: 12vw;
-  top: 3.5vh;
+  top: 3vh;
   background: none;
 }
 .search-users {
   position: absolute;
-  top: 2vh;
+  top: 1vh;
   right: 22vw;
   background: white;
   height: 4.3vh;
@@ -152,7 +184,7 @@ body {
   height: 10vh;
   width: 100vw;
   position: absolute;
-  top: 79vh;
+  top: 80vh;
   z-index: 2;
   display: flex;
   flex-direction: row;
@@ -176,7 +208,6 @@ body {
   border-radius: 50%;
   background-color: rgb(236, 234, 234);
   display: flex;
-
   justify-content: space-evenly;
   align-items: center;
 }
