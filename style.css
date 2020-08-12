@@ -7,13 +7,32 @@ body {
   font-family: Avenir;
 }
 .nav {
-  height: 6vh;
+  height: 9vh;
   border-bottom: 1px solid rgb(209, 209, 209);
 }
 .back {
   margin-top: 3vh;
   background-color: white;
   border: none;
+}
+.search {
+  position: absolute;
+  right: 12vw;
+  top: 3vh;
+  background: none;
+}
+.search-users {
+  position: absolute;
+  top: 2vh;
+  right: 22vw;
+  background: white;
+  height: 4.3vh;
+  width: 44vw;
+  border: 2px solid black;
+  border-radius: 50px;
+  display: none;
+  padding: 2px;
+  outline: none;
 }
 .upload {
   margin-top: 3vh;
@@ -27,7 +46,7 @@ body {
   font-size: 1em;
 }
 .vhead {
-  margin-top: 4vh;
+  margin-top: 6vh;
   margin-left: 2vh;
   padding: 4px;
   font-size: 1.2em;
@@ -41,7 +60,7 @@ body {
   justify-content: space-around;
 
   width: 100vw;
-  height: 26vh;
+  height: 28vh;
   /* border: 1px solid red; */
   flex-direction: row;
   overflow-x: scroll;
@@ -49,7 +68,7 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 .card {
-  height: 80%;
+  height: 90%;
   min-width: 80%;
   /* border: 1px solid red; */
   margin: 0px 10px;
@@ -83,6 +102,8 @@ body {
   position: relative;
   border-radius: 40px;
   height: 100px;
+  margin: 7px;
+  margin-left: 0px;
 
   /* border: 1px solid pink; */
 }
@@ -99,7 +120,8 @@ body {
   background-position: center;
 }
 .week {
-  font-size: 0.7em;
+  font-size: 0.8em;
+  line-height: 20px;
   color: rgb(180, 180, 180);
 }
 
@@ -160,31 +182,13 @@ body {
   font-size: 0.8em;
   color: rgb(167, 167, 167);
 }
-.search {
-  position: absolute;
-  right: 12vw;
-  top: 3vh;
-  background: none;
-}
-.search-users {
-  position: absolute;
-  top: 1vh;
-  right: 22vw;
-  background: white;
-  height: 4.3vh;
-  width: 44vw;
-  border: 2px solid black;
-  border-radius: 50px;
-  display: none;
-  padding: 2px;
-  outline: none;
-}
+
 .footer {
   background-color: #fff;
-  height: 10vh;
+  height: 12vh;
   width: 100vw;
   position: absolute;
-  top: 80vh;
+  top: 90vh;
   z-index: 2;
   display: flex;
   flex-direction: row;
